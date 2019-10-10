@@ -1,0 +1,91 @@
+p{
+   font-family: Arial;
+  }
+
+h1, h3 {
+	color: red;
+	background-color: darkgrey;
+	padding: 40px
+	display:flex;
+	
+
+
+} 
+
+
+.image img{
+	border-radius: 50%;
+}
+
+
+
+body {
+	margin: 1opx
+	padding:20px;
+}
+
+
+.wrapper {
+	display: grid;
+	max-width: 900px;
+	position: relative;
+	margin: auto;
+	grid-gap: 10px;
+	grid-template-areas: "header header"
+						 "left right";
+	grid-template-columns: 200px 400px;
+	grid-template-rows: 150px 200px 600px 200px;
+	background-color: lightgrey;
+}
+
+.header {
+  background-color: darkgrey;
+  grid-area: header;
+  grid-area: 1/9/1/1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  
+  
+}
+
+.left {
+  background-color: darkgrey;
+  grid-area: left;
+  grid-area: 2/2/5/1;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+
+}
+
+.right {
+  background-color: lightgrey;
+  grid-area: right;
+  grid-area:  2/ 7/ 4/ 2;
+}
+
+
+.box5 {
+	display: grid;
+	max-width: 400px;
+	position: relative;
+	margin: 0;
+	grid-gap: 10px;
+	grid-template-areas: "job pos"
+						"job1 pos1"
+
+
+}
+.boxed{
+	display: grid;
+	max-width: 400px;
+	position: relative;
+	margin: 0;
+	grid-gap: 10px;
+	grid-template-areas: "headr"
+						"year school"
+	grid-template-columns:50px 50p;
+						
+	
+}
